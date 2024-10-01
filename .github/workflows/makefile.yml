@@ -15,7 +15,7 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/chen2021-web/android_kernel_huawei_hi6250
+          kernel-url: https://github.com/chen2021-web/android_kernel_huawei_hi6250.git
           kernel-dir: msm-4.9
           kernel-branch: phenix-1.0
           config: phenix_defconfig
